@@ -1,0 +1,42 @@
+.sidebar{
+    margin-top: -8px;
+    background-color: rgb(213, 226, 252);
+    height: 100%;
+    padding: 20px;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 8px 16px 12px 8px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, 8px 16px 12px 8px rgba(0,0,0,0);
+}
+.dashboardList{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}   
+.ListTitle{
+    margin-left: 20px;
+    font-size: 20px;
+    color: gray;  
+}
+.listName{
+    font-weight: bolder;
+    cursor: pointer;
+    text-align: left;
+    padding: 5px 0 5px 20px;
+    margin:15px 15px;
+    background-color: #9ec0f3;
+    font-size: 18px;
+    text-decoration: none;
+    list-style-type: none;
+    border-radius: 0 15px 15px 0;
+    filter: drop-shadow(5px 5px 5px gray);
+    transition: all 0.25s ease-in-out;
+    display: flex;
+    
+}  
+.listName:hover{
+    background-color: #7799bb;
+    transform: scale(1.1);
+} 
+.menuIcon{
+    margin-right: 5px;
+} 
+
